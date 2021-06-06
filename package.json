@@ -1,0 +1,39 @@
+{
+  "name": "skylark-codemirror-base",
+  "description": "A version of codemirror 5.45 core library that ported to running on skylarkjs",
+  "version": "0.9.0",
+  "keywords": [
+    "css",
+    "less",
+    "mobile-first",
+    "responsive",
+    "front-end",
+    "framework",
+    "web"
+  ],
+  "homepage": "https://github.com/skylark-integration/skylark-codemirror-base/",
+  "author": "Hudaokeji, Inc.",
+  "scripts": {
+    "build": "slib build ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skylark-integration/skylark-codemirror-base.git"
+  },
+  "bugs": {
+    "url": "https://github.com/skylark-integration/skylark-codemirror-base/issues"
+  },
+  "files": [
+    "demo/",
+    "dist/",
+    "src/",
+    "skins/"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "skylark-langx": "git+https://github.com/skylark-langx/skylark-langx.git#master"
+  },
+  "engines": {
+    "node": ">=0.10.1"
+  }
+}
