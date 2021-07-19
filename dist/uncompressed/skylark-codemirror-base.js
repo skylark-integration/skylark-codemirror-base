@@ -10636,7 +10636,6 @@ define('skylark-codemirror-base/codemirror',[
 define('skylark-codemirror-base/main',[
     "./codemirror"
 ],function(CodeMirror){
-
 	return CodeMirror;
 });
 define('skylark-codemirror-base', ['skylark-codemirror-base/main'], function (main) { return main; });
